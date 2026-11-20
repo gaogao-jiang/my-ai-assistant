@@ -1,0 +1,30 @@
+{
+	"name": "@pi/desktop",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Pi Windows 桌面助手界面骨架",
+	"type": "module",
+	"main": "dist/main.mjs",
+	"scripts": {
+		"start": "npm run build && node scripts/start.mjs",
+		"build": "node scripts/build.mjs",
+		"check": "node ../../scripts/biome-check.mjs && tsc --noEmit",
+		"format": "node ../../scripts/biome-check.mjs --write",
+		"setup:electron": "install-electron --no"
+	},
+	"engines": {
+		"node": ">=22.19.0"
+	},
+	"dependencies": {
+		"react": "19.3.0",
+		"react-dom": "19.3.0"
+	},
+	"devDependencies": {
+		"@types/node": "22.19.19",
+		"@types/react": "19.2.14",
+		"@types/react-dom": "19.2.3",
+		"electron": "45.3.0",
+		"esbuild": "0.28.2",
+		"typescript": "7.0.2"
+	}
+}
