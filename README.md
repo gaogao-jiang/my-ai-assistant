@@ -1,3 +1,28 @@
+# My AI Assistant — 基于 Pi 的非官方个人桌面客户端
+
+本仓库由 [gaogao-jiang](https://github.com/gaogao-jiang) 基于
+[Pi（earendil-works/pi）](https://github.com/earendil-works/pi) 进行个人二次开发，
+用于个人 Windows 桌面客户端的开发与定制，相关代码见 [apps/desktop](apps/desktop)。
+本仓库不代表 Pi 官方项目或其维护者，也不表示获得其认可或背书。
+
+## 来源、版权与许可
+
+- 原项目：[Pi](https://github.com/earendil-works/pi)，原作者 Mario Zechner。
+- 原版权声明：`Copyright (c) 2025 Mario Zechner`，完整许可文本保留于 [LICENSE](LICENSE)。
+- 本仓库保留原项目的 MIT 许可证；本人的代码修改也按 MIT 许可发布，第三方内容适用其各自许可。
+- 已随源码保留的第三方声明包括
+  [Ghostty](apps/p2/plugins/terminals/vendor/ghostty/LICENSE)、
+  [TypeBox](packages/schema/THIRD_PARTY_NOTICES/typebox-LICENSE)、
+  [MCP 组件的第三方声明](packages/mcp/THIRD_PARTY_NOTICES) 和
+  [Schema 组件的第三方声明](packages/schema/THIRD_PARTY_NOTICES)。
+  第三方依赖、字体、图片和其他素材须分别遵守其许可；分发时应保留适用的版权与许可声明。
+- 上游及第三方名称、商标和标识的权利属于各自权利人；MIT 代码许可不等于商标授权。
+
+下方保留上游项目文档作为参考；其中的官方徽章、npm 包、安装命令、发布链接和品牌标识指向上游，
+不表示本仓库是官方发行版或已发布对应软件包。
+
+---
+
 <p align="center">
   <a href="https://pi.dev">
     <img alt="pi logo" src="https://pi.dev/logo-auto.svg" width="128">
